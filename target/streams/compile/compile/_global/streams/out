@@ -1,0 +1,24 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/sush03/memoization-scala/project/target/.sbt-compilation-infos/memoization-scala-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:13:8: not found: object scalacache[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalacache._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:14:8: not found: object memoization[0m
+[0m[[0m[31merror[0m] [0m[0mimport memoization._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:15:8: not found: object scalacache[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalacache.modes.scalaFuture._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:33:42: not found: value memoizeF[0m
+[0m[[0m[31merror[0m] [0m[0m    def getUser(id: Int): Future[User] = memoizeF(None) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:38:45: not found: value memoizeF[0m
+[0m[[0m[31merror[0m] [0m[0m    def withExpiry(id: Int): Future[User] = memoizeF(Some(60 seconds)) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:43:53: not found: value memoizeF[0m
+[0m[[0m[31merror[0m] [0m[0m    def withOptionalExpiry(id: Int): Future[User] = memoizeF(Some(60 seconds)) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/sush03/memoization-scala/src/main/scala/example/Main.scala:47:57: not found: value memoizeF[0m
+[0m[[0m[31merror[0m] [0m[0m    def withOptionalExpiryNone(id: Int): Future[User] = memoizeF(None) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m7 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/sush03/memoization-scala/project/target/.sbt-compilation-infos/memoization-scala-compile/.sbt-idea-lock.[0m
